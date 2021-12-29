@@ -1,0 +1,69 @@
+.CryptoWrap {
+  background: linear-gradient(
+    94.46deg,
+    #5689e6 0%,
+    #346cd1 45.62%,
+    #2e63c4 100%
+  );
+  border-radius: 12.4019px;
+  min-height: 340px;
+  .CryptoBox {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1.55024px solid rgba(48, 66, 97, 0.2);
+    border-top: 0;
+    border-bottom: 0;
+    color: #ffffff;
+    font-family: "Poppins";
+    flex-direction: column;
+  }
+  .CryptoBox:first-child {
+    border-left: 0;
+  }
+  .CryptoBox:last-child {
+    border-right: 0;
+  }
+  .CryptoName {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+    span {
+      display: block;
+      padding-top: 12px;
+      font-size: 25px;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: normal;
+      b {
+        color: #ffffff;
+      }
+    }
+  }
+  .Cryptologo {
+    width: 95px;
+    height: 95px;
+    background: rgba(44, 82, 152, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .imgWrap {
+      background: linear-gradient(
+        132.51deg,
+        rgba(118, 161, 237, 0.6) 6.43%,
+        rgba(142, 178, 240, 0.6) 94.82%
+      );
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.HeaderWrap {
+  max-width: 100%;
+  width: 100%;
+  padding: 20px 0;
+  padding-top: 40px;
+  font-family: Circe;
+  color: #252b35;
+  .logoWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 65px;
+      height: 52px;
+    }
+    span {
+      margin-left: 20px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 120%;
+    }
+  }
+  .menuWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+  }
+  .authBtnWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #96a0b3;
+    width: 60%;
+  }
+}

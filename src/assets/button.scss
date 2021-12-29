@@ -1,0 +1,14 @@
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply text-white;
+  background-color: #467ddb;
+}
+.btn-blue:hover {
+  background-color: #467ddbc9;
+  transition: all 5ms ease-in;
+}
+.btn-sign-up {
+  padding: 15px 70px;
+}
