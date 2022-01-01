@@ -10,14 +10,14 @@
     justify-content: center;
     align-items: center;
     img {
-      width: 65px;
-      height: 52px;
+      width: 55px;
+      height: 42px;
     }
     span {
       margin-left: 20px;
       font-style: normal;
       font-weight: 700;
-      font-size: 50px;
+      font-size: 40px;
       line-height: 120%;
     }
   }
@@ -28,18 +28,24 @@
     width: 80%;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 150%;
     text-align: center;
+    li {
+      cursor: pointer;
+    }
+    li:hover {
+      color: #2f80ed !important;
+      font-weight: bold;
+    }
   }
   .authBtnWrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 150%;
     text-align: center;
     color: #96a0b3;
-    width: 60%;
   }
 }

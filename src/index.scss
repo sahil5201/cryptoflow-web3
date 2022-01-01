@@ -1,11 +1,18 @@
 @import url("./assets/style.scss");
 
-body {
-  background: linear-gradient(113.85deg, #ebeef3 0%, #dee3ea 91.75%);
+._light {
+  background: linear-gradient(113.85deg, #ebeef3 0%, #dee3ea 91.75%); //light
+}
+
+._dark {
+  background: linear-gradient(113.85deg, #040404 0%, #303030 91.75%); //Dark
+  * {
+    color: #fff !important;
+  }
 }
 
 .container {
-  max-width: 1700px;
+  max-width: 1300px;
 }
 
 .container-wrap {

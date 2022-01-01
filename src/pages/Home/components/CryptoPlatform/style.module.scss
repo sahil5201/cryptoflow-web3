@@ -1,5 +1,5 @@
 .CryptoPlatformWrap {
-  min-height: 1048px;
+  // min-height: 1048px;
   .btnBox {
     margin-top: 90px;
     font-weight: 400;
@@ -8,7 +8,7 @@
     // justify-content: space-around;
     button {
       font-family: "Poppins";
-      font-size: 24px;
+      font-size: 16px;
     }
     .btnEyeWrap {
       display: flex;
@@ -49,11 +49,11 @@
       font-family: "Poppins";
       font-style: normal;
       font-weight: bold;
-      font-size: 80px;
+      font-size: 65px;
       line-height: 120%;
       color: #252b35;
       b {
-        color: #2f80ed;
+        color: #2f80ed !important;
       }
       padding-bottom: 50px;
     }
@@ -61,11 +61,11 @@
       font-family: Circe;
       font-style: normal;
       font-weight: normal;
-      font-size: 25px;
+      font-size: 18px;
       line-height: 150%;
       color: #848495;
       a {
-        color: #2f80ed;
+        color: #2f80ed !important;
       }
     }
   }
