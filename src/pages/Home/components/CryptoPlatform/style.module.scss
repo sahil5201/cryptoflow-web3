@@ -75,3 +75,33 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .CryptoPlatformWrap {
+    .btnBox {
+      flex-direction: column;
+      margin: 20px auto;
+      button:not(:last-child) {
+        margin-bottom: 25px;
+      }
+      .btnEyeWrap {
+        .btnEyeLine,
+        .btnEye {
+          display: none;
+        }
+        span {
+          padding-left: 0;
+        }
+      }
+    }
+    .PlatformBox {
+      margin: 0 auto;
+      padding: 0 20px;
+      padding-top: 25px;
+      .title {
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+  }
+}

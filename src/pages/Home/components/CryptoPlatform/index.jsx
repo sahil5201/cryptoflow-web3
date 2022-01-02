@@ -5,10 +5,10 @@ import eye from "./images/eye.png"
 
 function CryptoPlatform() {
     return (
-        <div className={`${style.CryptoPlatformWrap} grid grid-cols-2 gap-6`}>
+        <div className={`${style.CryptoPlatformWrap} grid grid-cols-1 md:grid-cols-2 gap-6`}>
             <div className={style.PlatformBox}>
                 <div className={style.title}>
-                    Available <b>P2P</b> cryptocurrency lending platform
+                    Available <b>P2P</b> Blockchain lending platform
                 </div>
                 <div className={style.SubText}>
                     Libra is a complete <a href='/'>free market</a> environment that contains all the elements that a credit business needs to function.

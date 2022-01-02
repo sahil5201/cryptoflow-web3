@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ThemeContext } from "./Contexts";
+import { GetDefaultTheam } from "./functions";
 import Home from "./pages/Home";
 
 const App = () => {
@@ -10,16 +11,11 @@ const App = () => {
         isDark: x
       })
     },
-    isDark: false
+    isDark: true
   })
+
   useEffect(() => {
-    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-    let isDark = true;
-    if (darkThemeMq.matches) {
-      isDark = true;
-    } else {
-      isDark = false;
-    }
+    const isDark = GetDefaultTheam()
     theme.toggleTheme(isDark)
     return () => {
 
@@ -36,8 +32,7 @@ const App = () => {
               </div>
             </div>
           </div>)
-        }
-        }
+        }}
       </ThemeContext.Consumer>
     </ThemeContext.Provider>
   );

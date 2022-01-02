@@ -7,7 +7,7 @@ import style from "./style.module.scss"
 
 function CryptoFooter() {
     return (
-        <div className={`${style.CryptoWrap} grid grid-cols-4`}>
+        <div className={`${style.CryptoWrap} grid grid-cols-1 md:grid-cols-4`}>
             <div className={style.CryptoBox}>
                 <div className={style.Cryptologo}>
                     <div className={style.imgWrap}>

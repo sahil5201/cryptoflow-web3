@@ -49,3 +49,12 @@
     color: #96a0b3;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .authBtnWrap {
+    flex-direction: column-reverse;
+    button:last-child {
+      margin-bottom: 25px;
+    }
+  }
+}

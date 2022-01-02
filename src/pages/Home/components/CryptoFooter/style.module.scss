@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    border: 1.55024px solid rgba(48, 66, 97, 0.2);
+    border: 1.5px solid rgba(48, 66, 97, 0.2);
     border-top: 0;
     border-bottom: 0;
     color: #ffffff;
@@ -64,6 +64,29 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .CryptoWrap {
+    width: 90%;
+    margin: 0 auto;
+    .CryptoBox {
+      height: 275px;
+      padding: 20px 0;
+      border-bottom: 1.5px solid rgba(48, 66, 97, 0.2) !important;
+      .Cryptologo {
+        width: 65px;
+        height: 65px;
+        .imgWrap {
+          width: 55px;
+          height: 55px;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
     }
   }
 }
